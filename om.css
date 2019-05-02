@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+}
+body {
+  font-family: sans-serif, monospace;
+  font-size: 15px;
+  background: white;
+  background-color: lightgreen;
+}
+header h1 {
+  text-align: left;
+  font-size: 3em;
+  lightred;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+.om-os {
+font-size: 18px
+ }

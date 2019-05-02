@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Produkt 1</title>
+  </head>
+  <body>
+    <h1>Produkt1</h1>
+    <p>Mit produkt.
+      <button
+curl https://api.stripe.com/v1/checkout/sessions \
+  -u sk_test_x2HVXGDCOI2Gt78EvkVlLXDw00SqRvhduW: \
+  -d payment_method_types[]=card \
+  -d line_items[][name]=T-shirt \
+  -d line_items[][description]="Comfortable cotton t-shirt" \
+  -d line_items[][images][]="https://example.com/t-shirt.png" \
+  -d line_items[][amount]=500 \
+  -d line_items[][currency]=dkk \
+  -d line_items[][quantity]=1 \
+  -d success_url="https://example.com/success" \
+  -d cancel_url="https://example.com/cancel"
+</button>
+      </p>
+  </body>
+</html>

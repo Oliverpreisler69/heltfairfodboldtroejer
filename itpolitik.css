@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+}
+body {
+  font-family: times, monospace;
+  font-size: 12px;
+  background: white;
+  background-color: lightyellow;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  background-color: lightblue;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: lightyellow;
+  padding: 1em;
+}
+.itpolitik {
+font-size: 12px
+ }
