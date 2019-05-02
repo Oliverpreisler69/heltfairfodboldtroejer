@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: impact, monospace;
+  font-size: 32px;
+}
+header h1 {
+  text-align: center;
+  font-size: 2em;
+}
+header h2 {
+  text-align: right;
+  font-size: 1em;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+.troeje {
+  width: 30vw;
+}
+.troeje img{
+  width: 30vw;
+}
+p {
+  text-align: center;
+  word-spacing: 10px;
+}
+.snipcart-add-item {
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  marging: 200px auto;
+  color: black
+}
